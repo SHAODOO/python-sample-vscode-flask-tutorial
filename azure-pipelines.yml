@@ -36,5 +36,6 @@ steps:
 #     pytest
 #   displayName: 'pytest'
 
-- script: echo "Hello, World!"
-  displayName: 'Print Hello, World!'
+- script: |
+    git clone https://github.com/SHAODOO/python-sample-vscode-flask-tutorial
+  displayName: 'Clone Git Repository'
